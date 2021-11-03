@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang=”es”>
+<head>
+    <meta charset=”UTF-8″ />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../estilos.css" type="text/css" media="screen">
+</head>
+
+<body> 
+    <header>
+        <h1>DESCUENTOS IMPERDIBLES EN NUESTRAS CAPACITACIONES COMPRANDO MAS DE $2500.-</h1>
+    </header>
+
+    <nav id="menu-simple">
+        <div class="menu-block">
+            <ul class="menu">
+                <li><a  href="../index.html">Inicio</a></li>
+                <li><a  href="../pg/nosotros.html">Nosotros</a></li>
+                <li><a  href="../pg/blog.html">Blog</a></li>
+                <li><a  href="../pg/podcast.html">Podcast</a></li>
+                <li><a  href="../pg/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <video autoplay loop>
+            <source src="../vid/bikebanner1.mp4">
+        </video>
+      
+    </section>
+    <main>
+        
+        
+        <article id="art-nos">
+            <h3>Contactate con nosotros</h3>
+            
+            <form id="form">
+                <ul>
+                
+                        <li>Nombre: <input  id="nombre" type="text" name="user_name" placeholder=" Nombre y Apellido"  pattern="([a-zA-Z]+\s){1,2,3}([a-zA-Z]+)"></li>
+                        <li>Email: <input id="mail" type="email" name="user_mail"  placeholder=" Ingresa tu Email"  ></li>
+                        <li>Edad: <input id="edad" type="number" min="18" max="85" placeholder=" Edad" name="user_age" ></li>
+                        <li>Fecha de envio:  <input id="fecha" type="date" name="date" ></li>
+                        <li>Consultas: <textarea id="consulta" name="consulta" rows="5"></textarea></li>
+                        </br>
+                        <li><input id="btn-send" onclick= 'validarForm ()'type="submit"></li>
+                        
+                </ul>
+    
+                <button id="btn-insc" type="submit" ><a href="../pg/inscripcion.html">INSCRIBIR ALUMNOS</a></button>
+            </form>
+               
+            
+        </article>
+        <aside>
+            <img src="../img/aside-2.jpg">
+        </aside>
+    </main>
+    
+    
+
+    <footer>
+        
+            <h5>Seguinos en nuestras redes</h5>
+            <div id="footer-block" >
+                <ul class="footer-list">
+                    
+                <li><a href="https://www.instagram.com/val.performance/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/VAL-Sport-Performance-104277988095471">Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/UCCrMsTyUzmSHnX4r153IrTg">Youtube</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">TikTok</a></li>
+                
+            </ul>
+            </div>
+            <img id="logo-footer" src="../img/logo-footer.png">
+        
+    </footer>
+    <script src="../js/valjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang=”es”>
+<head>
+    <meta charset=”UTF-8″ />
+    <title>Adelanto</title>
+    <link rel="stylesheet" href="../estilos.css" type="text/css" media="screen">
+</head>
+
+<body onload="alerta()" > 
+    <header>
+        <h1>DESCUENTOS IMPERDIBLES EN NUESTRAS CAPACITACIONES COMPRANDO MAS DE $2500.-</h1>
+    </header>
+
+    <nav id="menu-simple">
+        <div class="menu-block">
+            <ul class="menu">
+                <li><a  href="../index.html">Inicio</a></li>
+                <li><a  href="../pg/nosotros.html">Nosotros</a></li>
+                <li><a  href="../pg/blog.html">Blog</a></li>
+                <li><a  href="../pg/podcast.html">Podcast</a></li>
+                <li><a  href="../pg/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <video autoplay loop>
+            <source src="../vid/bikebanner1.mp4">
+        </video>
+      
+    </section>
+    <main>
+        
+        
+        <article id="art-nos">
+            <h3>Te dejamos un adelanto de lo que es nuestra capacitacion de Fuerza Aplicada.</h3>
+            <video id="vid-fuerza" src="../vid/conceptos-basicos.mp4" ></video>
+            <div id="btn-vid">
+            <ul>
+                <li><a id="atrasar" onclick="adelantar (-10)">Atrasar⏪</a></li>
+                <li><a  id="reproducir" onclick="reproducir()">Reproducir ▶</a></li>
+                <li><a  id="reiniciar" onclick="detener()">Reiniciar</a></li>
+                <li><a  id="adelantar" onclick="adelantar (10)" >Adelantar ⏩</a></li>   
+            </ul>
+            </div>
+        </article>
+        <aside>
+            <img src="../img/aside-1.jpg">
+        </aside>
+    </main>
+    
+    
+
+    <footer>
+        
+            <h5>Seguinos en nuestras redes</h5>
+            <div id="footer-block" >
+                <ul class="footer-list">
+                    
+                <li><a href="https://www.instagram.com/val.performance/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/VAL-Sport-Performance-104277988095471">Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/UCCrMsTyUzmSHnX4r153IrTg">Youtube</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">TikTok</a></li>
+                
+            </ul>
+            </div>
+            <img id="logo-footer" src="../img/logo-footer.png">
+        
+    </footer>
+    <script src="../js/valjs.js"></script>
+</body>
+</html>
